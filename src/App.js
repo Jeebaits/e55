@@ -1,11 +1,11 @@
 const App = () => {
-  return (
-    <div>
-        <h1>
-            Welcome KodeBrewers to React!
-        </h1>
-    </div>
-  );
+    const greetings = <h1>Welcome KodeBrewers to React using JSX!</h1>;
+
+    return (
+        <div>
+            {greetings}    
+        </div>
+    );
 };
 
 export default App;
